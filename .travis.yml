@@ -1,6 +1,9 @@
 language: node_js
 node_js:
  - "7"
+before_script:
+ - curl https://gist.github.com/santiycr/5139565/raw/sauce_connect_setup.sh | bash
+ - echo "Sauce Connected"
 script:
  - echo "Deploy!!"
 install:
