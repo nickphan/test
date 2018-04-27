@@ -6,4 +6,4 @@ script:
 install:
  — npm install -g firebase-tools
 after_success:
- — firebase deploy — project testCSE112 — token $FIREBASE_TOKEN.
+ — firebase deploy — project testcse112-c6c0b — token $FIREBASE_TOKEN.
